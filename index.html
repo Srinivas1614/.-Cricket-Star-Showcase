@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Legends Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Cricket Legends Hub</h1>
+    <p>Explore the greatest cricket players and matches from around the world!</p>
+</header>
+
+<!-- Home Page -->
+<section id="intro">
+    <h2>Welcome to the World of Cricket</h2>
+    <p>Cricket is a beloved sport enjoyed by millions across the globe. Discover the legends who shaped the game and relive the most iconic moments in cricket history.</p>
+</section>
+
+<!-- Player Profiles -->
+<section id="players">
+    <h2>Featured Players</h2>
+    <div class="player-card">
+        <img src="player1.jpg" alt="Player 1">
+        <h3>Player 1</h3>
+        <p>Runs: 10000 | Wickets: 200</p>
+        <p>Notable Achievements: World Cup Winner</p>
+    </div>
+    <div class="player-card">
+        <img src="player2.jpg" alt="Player 2">
+        <h3>Player 2</h3>
+        <p>Runs: 12000 | Wickets: 150</p>
+        <p>Notable Achievements: Best Batsman Award</p>
+    </div>
+    <div class="player-card">
+        <img src="player3.jpg" alt="Player 3">
+        <h3>Player 3</h3>
+        <p>Runs: 8000 | Wickets: 300</p>
+        <p>Notable Achievements: ICC Player of the Year</p>
+    </div>
+</section>
+
+<!-- Interactive Map -->
+<section id="map-section">
+    <h2>Player Origins</h2>
+    <div id="map"></div>
+</section>
+
+<!-- Top Matches -->
+<section id="top-matches">
+    <h2>Top Matches</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sample1" title="Top Match 1" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sample2" title="Top Match 2" allowfullscreen></iframe>
+</section>
+
+<!-- Fan Zone -->
+<section id="fan-zone">
+    <h2>Fan Zone</h2>
+    <p>Submit your favorite player stories or vote for the greatest cricket player of all time!</p>
+    <form id="fan-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="story">Favorite Player Story:</label>
+        <textarea id="story" name="story" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<script src="scripts.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</body>
+</html>
